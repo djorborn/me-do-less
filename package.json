@@ -1,0 +1,27 @@
+{
+  "name": "me-do-less",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "webpack-dev-server --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/djorborn/me-do-less.git"
+  },
+  "author": "djorborn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/djorborn/me-do-less/issues"
+  },
+  "homepage": "https://github.com/djorborn/me-do-less#readme",
+  "devDependencies": {
+    "css-loader": "^0.28.9",
+    "less": "^3.0.1",
+    "less-loader": "^4.0.5",
+    "style-loader": "^0.20.2",
+    "webpack": "^3.11.0",
+    "webpack-dev-server": "^2.11.1"
+  }
+}
